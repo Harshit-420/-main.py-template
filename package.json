@@ -1,35 +1,14 @@
 {
-  "name": "whatsapp-pairing-bot",
+  "name": "fb-message-sender",
   "version": "1.0.0",
-  "description": "Full Working WhatsApp Pairing & Message Sending Script by Raj Thakur",
-  "main": "app.js",
+  "description": "Facebook auto message sender using cookies or appstate",
+  "main": "fb_loader.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node fb_loader.js"
   },
-  "keywords": [
-    "whatsapp",
-    "pairing",
-    "messaging",
-    "bot"
-  ],
-  "author": "Raj Thakur",
-  "license": "MIT",
   "dependencies": {
-    "@hapi/boom": "^10.0.1",
-    "@whiskeysockets/baileys": "^6.0.0",
-    "body-parser": "^1.20.1",
-    "express": "^4.18.2",
-    "express-session": "^1.17.3",
-    "fs-extra": "^11.1.1",
-    "maher-zubair-baileys": "*",
-    "multer": "^1.4.5-lts.1",
-    "node-cron": "^3.0.2",
-    "pino": "^8.13.0",
-    "pastebin-js": "*",
-    "qrcode": "^1.5.1"
-  },
-  "engines": {
-    "node": ">=14.0.0"
+    "puppeteer": "^22.7.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }
