@@ -1,14 +1,28 @@
 {
-  "name": "fb-message-sender",
+  "name": "facebook-multi-messenger",
   "version": "1.0.0",
-  "description": "Facebook auto message sender using cookies or appstate",
-  "main": "fb_loader.js",
+  "description": "A Facebook Multi Messenger application using Node.js, Express, and WebSocket.",
+  "main": "index.js",
   "scripts": {
-    "start": "node fb_loader.js"
+    "start": "node index.js"
   },
+  "keywords": [
+    "facebook",
+    "messenger",
+    "express",
+    "websocket",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "puppeteer": "^22.7.1",
-    "puppeteer-extra": "^3.3.6",
-    "puppeteer-extra-plugin-stealth": "^2.11.2"
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "fs-extra": "^11.2.0",
+    "http": "0.0.1-security",
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7",
+    "ws": "^8.16.0",
+    "ws3-fca": "^1.0.1"
   }
 }
